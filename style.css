@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 500px;
+    margin-top: -129px;
+    display: flex;
+    align-items: center;
+}
+.menyu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin-right: 40px;
+}
+li a {
+    text-decoration: none;
+}
+
+header{
+    background-image: url(./carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
